@@ -5,7 +5,7 @@ Strategic analysis of the UK logistics network using Tableau and SQL to identify
 # UK Freight Ports: Strategic Growth & Bottleneck Analysis
 
 ![Dashboard Preview](assets/dashboard_preview.png)
-*Replace this with a screenshot of your Page 5 Operational Risk dashboard.*
+
 
 ## 📌 The Business Problem
 The UK logistics network relies heavily on a centralized core of infrastructure hubs. The objective of this project is to provide the Operations Manager and executive team with clear visibility into international trade route dependencies, infrastructure bottlenecks, and single-point-of-failure risks within the national supply chain. 
