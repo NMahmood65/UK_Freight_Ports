@@ -21,9 +21,12 @@ The UK logistics network relies heavily on a centralized core of infrastructure 
 ## 📁 Repository Structure
 *   `/data`: Contains the sample dataset used for the analysis (or a link to the data source).
 *   `/sql_queries`: 
+    *   `00_exploratory_data_analysis.sql`: Foundational data profiling, including top trading partners, basic aggregations, and container utilization KPIs.
     *   `01_international_route_exposure.sql`: Calculates the international vs. domestic freight ratio per port.
     *   `02_pareto_bottleneck_risk.sql`: Calculates the cumulative running sum of tonnage to map the 80/20 network capacity risk.
     *   `03_top_10_port_share_kpi.sql`: Aggregates the absolute market share of the top 10 UK ports combined.
+    *   `04_yoy_network_resilience.sql`: Uses `LAG()` window functions to calculate Year-over-Year (YoY) tonnage and TEU fluctuations.
+    *   `05_primary_cargo_by_port.sql`: Uses `PARTITION BY` window functions to isolate the top specialized cargo group per port.
 *   `/assets`: High-resolution dashboard screenshots.
 
 ## 🔗 Live Dashboard
