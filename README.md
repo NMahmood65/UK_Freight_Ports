@@ -30,7 +30,7 @@ The UK logistics network relies heavily on a centralized core of infrastructure 
 *   `/assets`: High-resolution dashboard screenshots.
 
 ## 🔗 Live Dashboard
-Explore the fully interactive dashboard on **[Tableau Public](https://public.tableau.com/app/profile/naser.mahmood/viz/UKFreightPortsAnalysis/1_ExecutiveDashboard)**.
+Explore the fully interactive dashboard on **[Tableau Public](https://public.tableau.com/app/profile/naser.mahmood/viz/UKFreightPortsAnalysis/PortsByCargo?publish=yes)**.
 
 ## ⏭️ Limitations & Next Steps
 *   **Data Limitation:** The current dataset aggregates 2025 volume but does not account for seasonal or monthly volatility spikes. 
